@@ -1,0 +1,17 @@
+The File System Module:
+    - fs module, exports functions for working with files and directories
+    - file 1_fs.js show example of reading file.txt, if it doesn't exist than showing error.
+
+The HTTP Module:
+    - it provides functionality for running HTTP servers and making HTTP requests.
+    - file 2_server.js show example of HTTP server.
+
+Streams:
+    - we have Writable and Readable streams.
+For example, for creating HTTP server used the respose object and request object it is example of writable streams.
+But also it's objects of readable streams.
+Readable streams have "data" and "end" events. The first is fired every time data comes in,
+and the second is called whenever the stream is at its end. This model is most suited for streaming
+data that can be immediately processed, even when the whole document isn't available yet. A file
+can be read as a readable stream by using the createReadStream function from fs.
+    - file 2_server.js show example of HTTP server using streams functions, read text from file example.txt and showing it on webpage.

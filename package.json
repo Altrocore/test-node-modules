@@ -1,0 +1,14 @@
+{
+  "name": "nodelessons",
+  "version": "1.0.0",
+  "description": "qap1 acquitance with node global objects",
+  "main": "1_fs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Altrocore",
+  "license": "MIT",
+  "dependencies": {
+    "lunr": "^2.3.9"
+  }
+}
